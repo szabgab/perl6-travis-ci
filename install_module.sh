@@ -1,7 +1,7 @@
 #!/bin/sh
 
 BASEDIR=$(dirname $0)
-$BASEDIR/version.sh
+. $BASEDIR/version.sh
 
 echo Instaling $1
 
