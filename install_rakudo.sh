@@ -5,6 +5,8 @@ perl -v
 prove --version
 
 BASEDIR=$(dirname $0)
+echo $0
+echo $BASEDIR
 source $BASEDIR/version.sh
 echo $RAKUDO_VERSION
 
