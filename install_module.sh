@@ -1,8 +1,7 @@
 #!/bin/sh
 
-RAKUDO_BUILD_VERSION=2014-12-1
-
-RAKUDO_PATH=/home/travis/rakudo-$RAKUDO_BUILD_VERSION
+BASEDIR=$(dirname $0)
+source $BASEDIR/version.sh
 
 echo Instaling $1
 

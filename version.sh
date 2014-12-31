@@ -1,0 +1,4 @@
+#!/bin/sh
+RAKUDO_BUILD_VERSION=2014-12-1-2
+RAKUDO_PATH=/home/travis/rakudo-$RAKUDO_BUILD_VERSION
+
