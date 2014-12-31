@@ -8,6 +8,7 @@ BASEDIR=$(dirname $0)
 echo $0
 echo $BASEDIR
 ls -l $BASEDIR
+ls -l $BASEDIR/version.sh
 source $BASEDIR/version.sh
 echo $RAKUDO_VERSION
 
