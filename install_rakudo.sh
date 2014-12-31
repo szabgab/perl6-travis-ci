@@ -12,4 +12,3 @@ wget http://dwimperl.com/download/rakudo-$RAKUDO_BUILD_VERSION.tar.gz
 tar xzf rakudo-$RAKUDO_BUILD_VERSION.tar.gz
 cd $OLD_DIR
 
-prove -ve "/home/travis/rakudo-$RAKUDO_BUILD_VERSION/bin/perl6 -Ilib"
