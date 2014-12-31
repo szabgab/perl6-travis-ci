@@ -7,6 +7,7 @@ prove --version
 BASEDIR=$(dirname $0)
 echo $0
 echo $BASEDIR
+ls -l $BASEDIR
 source $BASEDIR/version.sh
 echo $RAKUDO_VERSION
 
