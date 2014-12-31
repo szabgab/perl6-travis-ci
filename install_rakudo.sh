@@ -6,10 +6,10 @@ prove --version
 
 BASEDIR=$(dirname $0)
 $BASEDIR/version.sh
-cat $BASEDIR/version.sh
-source $BASEDIR/version.sh
-echo $RAKUDO_VERSION
-echo $RAKUDO_PATH
+$BASEDIR/version.sh
+#source $BASEDIR/version.sh
+#echo $RAKUDO_VERSION
+#echo $RAKUDO_PATH
 
 cd /home/travis/
 wget http://dwimperl.com/download/rakudo-$RAKUDO_BUILD_VERSION.tar.gz
