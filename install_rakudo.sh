@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sudo apt-get install -qq lsb-core
+
 OLD_DIR=`pwd`
 perl -v
 prove --version
