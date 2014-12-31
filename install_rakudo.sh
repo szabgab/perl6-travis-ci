@@ -10,6 +10,7 @@ echo $BASEDIR
 ls -l $BASEDIR
 ls -l $BASEDIR/version.sh
 source $BASEDIR/version.sh
+. $BASEDIR/version.sh
 echo $RAKUDO_VERSION
 
 #cd /home/travis/
