@@ -18,8 +18,11 @@ ls -l
 cd $OLD_DIR
 ls -l $RAKUDO_PATH/bin
 
-$RAKUDO_PATH/bin/moar --version
+echo "perl6 --version"
 $RAKUDO_PATH/bin/perl6 --version
+
+echo "moar --version"
+$RAKUDO_PATH/bin/moar --version
 
 echo "Run this once in order to avoid the error when the user really wants to install a module"
 DESTDIR=$RAKUDO_PATH/languages/perl6 $RAKUDO_PATH/bin/perl6 $RAKUDO_PATH/bin/panda
